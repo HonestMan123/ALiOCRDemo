@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/idcard_face_img_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="选取身份证正面图片" />
+
+    <TextView
+        android:id="@+id/idcard_name_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="姓名："
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/idcard_gender_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="性别："
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/idcard_birth_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="出生："
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/idcard_address_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="住址："
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/idcard_num_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="公民身份号码："
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/idcard_back_img_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="选取身份证反面图片" />
+
+    <TextView
+        android:id="@+id/idcard_issue_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="签发机关："
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/idcard_time_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="有效期限："
+        android:textSize="16sp" />
+
+
+</LinearLayout>

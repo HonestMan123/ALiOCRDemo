@@ -1,0 +1,37 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--matisse style-->
+    <style name="MatisseTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="toolbar">@style/Toolbar.Dracula</item>
+        <!--相册名称字体颜色-->
+        <item name="album.title.color">@color/zhihu_album_title_text</item>
+        <!--相册中相片数量字体颜色-->
+        <item name="album.count.color">@color/zhihu_album_count_text</item>
+        <!--“全部照片”字体颜色-->
+        <item name="album.selected">@android:color/white</item>
+        <item name="album.placeholder">@color/zhihu_album_placeholder</item>
+        <item name="album.emptyView">@drawable/ic_empty_zhihu</item>
+        <item name="album.emptyView.color">@color/zhihu_empty_view</item>
+        <item name="item.placeholder">@color/zhihu_item_placeholder</item>
+        <!--界面背景-->
+        <item name="page.bg">@color/zhihu_page_bg</item>
+        <!--底部栏背景颜色-->
+        <item name="bottomToolbar.bg">@color/zhihu_bottom_toolbar_bg</item>
+        <!--“预览”字体颜色-->
+        <item name="bottomToolbar.preview.color">@color/zhihu_bottom_toolbar_preview</item>
+        <!--“使用”字体颜色-->
+        <item name="bottomToolbar.apply.color">@color/zhihu_bottom_toolbar_apply</item>
+        <item name="listPopupWindowStyle">@style/Popup.Zhihu</item>
+        <item name="capture.color">@color/zhihu_capture</item>
+    </style>
+</resources>
