@@ -223,6 +223,7 @@ public class IdCardRecognitionActivity extends AppCompatActivity implements View
 
     /**
      * 识别身份证
+     *
      * @param cardFile
      * @param side
      */
@@ -253,10 +254,12 @@ public class IdCardRecognitionActivity extends AppCompatActivity implements View
                     stringBuilder.insert(7, ".");
                     stringBuilder.insert(10, "\t-\t");
                     backDataJson.setStart_date(stringBuilder.toString());
-                    StringBuilder stringBuilder1 = new StringBuilder(backDataJson.getEnd_date());
-                    stringBuilder1.insert(4, ".");
-                    stringBuilder1.insert(7, ".");
-                    backDataJson.setEnd_date(stringBuilder1.toString());
+                    if (!"长期".equals(backDataJson.getEnd_date())) {
+                        StringBuilder stringBuilder1 = new StringBuilder(backDataJson.getEnd_date());
+                        stringBuilder1.insert(4, ".");
+                        stringBuilder1.insert(7, ".");
+                        backDataJson.setEnd_date(stringBuilder1.toString());
+                    }
                     Log.d(TAG, "签发机关：" + backDataJson.getIssue()
                             + "\n" + "有效期限：" + backDataJson.getStart_date() + backDataJson.getEnd_date());
                     mHandler.sendEmptyMessage(2);
