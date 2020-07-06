@@ -5,7 +5,7 @@
 
 把项目导入Android Studio后，需要到AppConfiguration类中，填入自己在[阿里云申请](https://market.aliyun.com/products/57124001/cmapi010401.html?spm=5176.730005.0.0.QDlYPn#sku=yuncode440100000)的appkey和appsecret，然后就可以使用了
 
-如果无法使用的话，还可以试试这个[OCRDemo](https://github.com/HonestMan123/BaiduOCRDemo)
+### 如果无法使用的话，还可以试试这个[OCRDemo](https://github.com/HonestMan123/BaiduOCRDemo)
 
 ### 目前demo中实现的功能有：
     1.身份证正面识别
